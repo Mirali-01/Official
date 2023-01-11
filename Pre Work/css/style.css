@@ -1,0 +1,91 @@
+    html {
+	background-color: steelblue;
+	margin: 2.5px;
+	margin-right: 300px;
+	margin-left: 300px;
+    }
+    
+    body{
+        font-family: Georgia;
+        font-size: 12pt;
+        line-height: 2em;
+        color: #2d2d2d;
+        display: inline-block;
+        background-color: lightsteelblue;
+        border-radius: 10px;
+    }
+    
+    .container {
+        padding-top: 10px;
+        padding-right: 80px;
+        padding-left: 80px;
+        padding-bottom: 10px;
+    }
+
+    .title {
+        font-family: Georgia;
+        color: darkslateblue;
+        text-align: center;
+        font-size: 2em;
+        font-weight: lighter;
+        text-decoration: underline;
+    }
+
+    .subtitle {
+        font-family: Georgia;
+        color: darkslateblue;
+        font-size: 1.5em;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    img{
+        align-self: center;
+        max-width: 100%;
+        position: relative;
+    }
+
+    p{
+        color: darkmagenta;
+        font-size: larger;
+        display: block;
+    }
+
+    ol{
+        font-weight: bold;
+    }
+    #MirsList{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+    }
+    .favList{
+        text-decoration: solid;
+    }
+    #credit{
+        color: black;
+    }
+
+    form{
+        padding: 15px;
+        background-color: whitesmoke;
+        font-style: italic;
+        border-style: solid;
+        font-weight: 900px;
+        max-width: fit-content;
+    }
+    input[type=button] {
+        color: black;
+        background-color: whitesmoke;
+        padding: 5px;
+    }
+    input[type=button]:hover{
+        border: solid;
+        background-color: gainsboro;
+    }
+    input[type=text]:focus{
+        color: black;
+        background-color: yellowgreen;
+        width: auto;
+        transition: 2ms;
+    }
